@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Petrochem</defName>
+    <label>Petrochem Corp</label>
+    <description>Petrochem's bread and butter is chemfuel; they are responseible for 60% of the Rim's supplies. The corporation remains on the cutting edge of chemistry and materials research and production. And by virtue of owning large tracts of arable land all over the rim, it is also among the rim's largest agricultural concerns.</description>
+    <pawnsPlural>Petrochem corps</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <expandingIconTexture>CP/World/Petrochem</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.67, 0.58, 0.38)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>50</max>
+    </startingGoodwill>
+    <factionNameMaker>NamerFactionPC</factionNameMaker>
+    <settlementNameMaker>NamerFactionBaseCorp</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Corp_CP</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StaffP>50</StaffP>
+          <HeavyP>50</HeavyP>
+          <OfficerP>100</OfficerP>
+          <SniperP>80</SniperP>
+          <CorpGuardP>100</CorpGuardP>
+          <ExecutiveP>100</ExecutiveP>
+          <SoldierP>100</SoldierP>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <HeavyP>50</HeavyP>
+          <OfficerP>100</OfficerP>
+          <SniperP>80</SniperP>
+          <SoldierP>100</SoldierP>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <SpecOpsP>100</SpecOpsP>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <CorpTraderP>1</CorpTraderP>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <HeavyP>50</HeavyP>
+          <CorpGuardP>100</CorpGuardP>
+          <SoldierP>80</SoldierP>
+          <OfficerP>100</OfficerP>
+          <SpecOpsP>50</SpecOpsP>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <HeavyP>50</HeavyP>
+          <SniperP>90</SniperP>
+          <StaffP>100</StaffP>
+          <CorpGuardP>100</CorpGuardP>
+          <ExecutiveP>100</ExecutiveP>
+          <SoldierP>100</SoldierP>
+          <OfficerP>100</OfficerP>
+          <SpecOpsP>50</SpecOpsP>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+</Defs>

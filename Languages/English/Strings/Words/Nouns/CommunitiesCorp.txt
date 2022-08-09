@@ -1,0 +1,21 @@
+﻿training facility
+village
+office
+base
+barracks
+division
+labratories
+manufacturing plant
+factory
+distribution center
+head office
+tactical HQ
+logistic HQ
+forward office
+park
+facility
+center
+headquarters
+campus
+tower
+proving ground

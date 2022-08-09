@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Militech</defName>
+    <label>Militech Corp</label>
+    <description>Militech is a dominating force in military hardware manufacturing. Militech products are sold in varying volumes to all known worlds. It not only sells all manner of weapons, but it also has launched into some research and theoretical grounds, conducting experiments with genetically altered soldiers and animals and combat strategy artificial intelligences that can steer ships, fly planes and operate armored vehicles.</description>
+    <pawnsPlural>Militech corps</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <factionIconPath>CP/World/Militech</factionIconPath>
+    <colorSpectrum>
+      <li>(0.2, 0.3, 0.4)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>50</max>
+    </startingGoodwill>
+    <factionNameMaker>NamerFactionMilitech</factionNameMaker>
+    <settlementNameMaker>NamerSettlementCorp</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Clerk</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Corp_CP</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <StaffM>50</StaffM>
+          <HeavyM>50</HeavyM>
+          <OfficerM>100</OfficerM>
+          <SniperM>50</SniperM>
+          <CorpGuardM>100</CorpGuardM>
+          <ExecutiveM>100</ExecutiveM>
+          <SoldierM>100</SoldierM>
+          <SpecOpsM>50</SpecOpsM>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <HeavyM>50</HeavyM>
+          <OfficerM>100</OfficerM>
+          <SniperM>50</SniperM>
+          <SoldierM>100</SoldierM>
+          <SpecOpsM>50</SpecOpsM>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <CorpTraderM>1</CorpTraderM>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <HeavyM>50</HeavyM>
+          <CorpGuardM>100</CorpGuardM>
+          <SoldierM>100</SoldierM>
+          <OfficerM>100</OfficerM>
+          <SpecOpsM>80</SpecOpsM>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <HeavyM>50</HeavyM>
+          <SniperM>90</SniperM>
+          <StaffM>100</StaffM>
+          <CorpGuardM>100</CorpGuardM>
+          <ExecutiveM>100</ExecutiveM>
+          <SoldierM>100</SoldierM>
+          <OfficerM>100</OfficerM>
+          <SpecOpsM>100</SpecOpsM>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

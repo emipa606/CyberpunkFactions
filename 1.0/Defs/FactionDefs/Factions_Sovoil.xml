@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Sovoil</defName>
+    <label>Sovoil Corp</label>
+    <description>The rim's leader in oil recovery and refining with extensive mining, heavy industry, and power transmission interests. Sovoil's leaders know, however, that the oil won't flow forever, and are making plans to carry the corp into the future, when oil is no longer a prime source of income.</description>
+    <pawnsPlural>Sovoil corps</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <expandingIconTexture>CP/World/sovoil</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.5, 0.2, 0.2)</li>
+      <li>(0.5, 0.1, 0.1)</li>
+      <li>(0.5, 0.0, 0.0)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>50</max>
+    </startingGoodwill>
+    <factionNameMaker>NamerFactionSO</factionNameMaker>
+    <settlementNameMaker>NamerFactionBaseCorp</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Corp_CP</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StaffS>50</StaffS>
+          <ExecutiveS>100</ExecutiveS>
+          <CorpGuardS>100</CorpGuardS>
+          <HeavyS>40</HeavyS>
+          <OfficerS>100</OfficerS>
+          <SniperS>60</SniperS>
+          <SoldierS>80</SoldierS>
+          <SpecOpsS>60</SpecOpsS>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <HeavyS>40</HeavyS>
+          <OfficerS>100</OfficerS>
+          <SniperS>60</SniperS>
+          <SoldierS>80</SoldierS>
+          <SpecOpsS>60</SpecOpsS>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <CorpTraderS>1</CorpTraderS>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <HeavyS>50</HeavyS>
+          <SoldierS>100</SoldierS>
+          <OfficerS>100</OfficerS>
+          <SpecOpsS>80</SpecOpsS>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <HeavyS>50</HeavyS>
+          <SniperS>90</SniperS>
+          <StaffS>100</StaffS>
+          <ExecutiveS>100</ExecutiveS>
+          <SoldierS>100</SoldierS>
+          <OfficerS>100</OfficerS>
+          <SpecOpsS>80</SpecOpsS>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+</Defs>

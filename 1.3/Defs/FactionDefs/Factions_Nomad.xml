@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>Tribe</defName>
+    <label>nomad</label>
+    <description>Nomads were once corporate wage-slaves, who got fired and blackballed from employment, and now they roam the roads and live in their own villages. As life on the road is hard, they maintain strong family bonds. If a Nomad is in trouble, he can count on members of his family to watch his back.</description>
+    <pawnsPlural>nomads</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(40, 3)</li>
+        <li>(400, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+    <colorSpectrum>
+      <li>(0.4, 0.92, 0.35)</li>
+      <li>(0.89, 0.89, 0.7)</li>
+      <li>(1, 1, 0.1)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <leaderTitle>chief</leaderTitle>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <fixedLeaderKinds>
+      <li>Tribal_ChiefMelee</li>
+    </fixedLeaderKinds>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Tribal_Warrior>60</Tribal_Warrior>
+          <Tribal_Archer>100</Tribal_Archer>
+          <Tribal_ChiefRanged>70</Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Tribal_Trader>1</Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <Tribal_Warrior>60</Tribal_Warrior>
+          <Tribal_Archer>100</Tribal_Archer>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Tribal_Warrior>60</Tribal_Warrior>
+          <Tribal_Archer>100</Tribal_Archer>
+          <Tribal_ChiefRanged>70</Tribal_ChiefRanged>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+  </FactionDef>
+  <FactionDef ParentName="FactionBase">
+    <defName>AutumnBlade</defName>
+    <label>arms dealer</label>
+    <description>Autumn Blade is a criminal arms dealing syndicate.  Built from the ashes of Yakuza treachery this organization has grown from a small street operation to an interplanetary business, Autumn Blade works alongside, but is not affiliated with, the Yakuza, the Tongs, and the Triads.</description>
+    <pawnsPlural>arms dealers</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(40, 3)</li>
+        <li>(400, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <canStageAttacks>true</canStageAttacks>
+    <hidden>true</hidden>
+    <colorSpectrum>
+      <li>(0.4, 0.92, 0.35)</li>
+      <li>(0.89, 0.89, 0.7)</li>
+      <li>(1, 1, 0.1)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionAB</factionNameMaker>
+    <settlementNameMaker>NamerSettlementGang</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <leaderTitle>boss</leaderTitle>
+    <allowedCultures>
+      <li>Kriminul</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>CPTraderCaravan</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Mercenary_Gunner>100</Mercenary_Gunner>
+          <Mercenary_Elite>60</Mercenary_Elite>
+          <PirateBoss>70</PirateBoss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Mercenary_Gunner>100</Mercenary_Gunner>
+          <Mercenary_Elite>60</Mercenary_Elite>
+          <PirateBoss>70</PirateBoss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <Grenadier_Destructive>15</Grenadier_Destructive>
+          <Mercenary_Slasher>70</Mercenary_Slasher>
+          <Town_Guard>100</Town_Guard>
+          <Mercenary_Gunner>100</Mercenary_Gunner>
+          <Mercenary_Elite>100</Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Mercenary_Elite>60</Mercenary_Elite>
+          <Mercenary_Gunner>100</Mercenary_Gunner>
+          <PirateBoss>70</PirateBoss>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cyberpunk Factions [18]</name>
+  <author>Darque</author>
+  <url>
+  </url>
+  <targetVersion>1.0.2059</targetVersion>
+  <description>
+    This mod introduces the Cyberpunk factions.
+    Change Notes
+    -----------
+    v1.3.1
+    -----------
+    Adjusted heat/cold insulation values on apparel
+    -----------
+    v1.3
+    -----------
+    Updated mod for RW 1.0
+    -----------
+    v1.2
+    Update for Alpha 18
+
+    -----------
+    v1.1
+    Added new factions - Lazarus, IEC, Petrochem and Sovoil
+    Added faction specific uniform items
+    Added faction icons
+  </description>
+</ModMetaData>

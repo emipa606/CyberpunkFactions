@@ -1,0 +1,5 @@
+﻿family
+nomads
+clan
+klan
+nation

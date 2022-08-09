@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============== beret ================= -->
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_BeretL</defName>
+    <label>Lazarus beret</label>
+    <description>A beret designed for and used by Lazarus Group soldiers.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Beret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Beret</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33, 0.42, 0.18)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_BeretS</defName>
+    <label>Sovoil beret</label>
+    <description>A beret designed for and used by Sovoil soldiers.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Beret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Beret</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.47,0.52,0.42,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_BeretM</defName>
+    <label>Militech beret</label>
+    <description>A beret designed for and used by Militech soldiers and guards.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Beret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Beret</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1, 0.1, 0.1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <!-- ============== cap ================= -->
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_CapM</defName>
+    <label>Militech cap</label>
+    <description>A cap designed for and used by Militech soldiers.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Cap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Cap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>Militech</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1, 0.1, 0.1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_CapA</defName>
+    <label>Arasaka cap</label>
+    <description>A cap designed for and used by Arasaka guards.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Cap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Cap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>Militech</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.1, 0.1, 0.1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_CapP</defName>
+    <label>Petrochem cap</label>
+    <description>A cap designed for and used by Petrochem guards.</description>
+    <graphicData>
+      <texPath>CP/Apparel/Helmet/Cap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <WoolMuffalo>20</WoolMuffalo>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+      <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.025</ArmorRating_Sharp>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>CP/Apparel/Helmet/Cap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>Militech</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.8, 0.7, 0.6)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

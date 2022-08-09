@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>IEC</defName>
+    <label>IEC</label>
+    <description>Many corporations can trace their power and influence to some particular specialty; some product or service at which they are better than all the rest. Interstellar Electric is a little different. Its main strength lies not in any specialty, or the monopolization of some service, but in its sheer diversity. IEC boasts holdings and markets in consumer products, defense industry, heavy industry and durable goods, raw materials, computers, and in media. Ultimately, there can be no doubt that manufacturing is the principal milieu of IEC, but so many different products come out of IEC plants and so many different markets are reached that it is difficult to simply say that it is a manufacturing conglomerate and leave it at that.</description>
+    <pawnsPlural>IEC corps</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <expandingIconTexture>CP/World/iec</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.0, 0.0, 0.5)</li>
+      <li>(0.1, 0.1, 0.5)</li>
+      <li>(0.0, 0.0, 0.4)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>50</max>
+    </startingGoodwill>
+    <factionNameMaker>NamerFactionIEC</factionNameMaker>
+    <settlementNameMaker>NamerFactionBaseCorp</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Corp_CP</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StaffI>50</StaffI>
+          <HeavyI>50</HeavyI>
+          <OfficerI>100</OfficerI>
+          <SniperI>80</SniperI>
+          <CorpGuardI>100</CorpGuardI>
+          <ExecutiveI>100</ExecutiveI>
+          <SoldierI>100</SoldierI>
+          <SpecOpsI>50</SpecOpsI>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <CorpTraderI>1</CorpTraderI>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <HeavyI>50</HeavyI>
+          <CorpGuardI>100</CorpGuardI>
+          <SoldierI>80</SoldierI>
+          <OfficerI>100</OfficerI>
+          <SpecOpsI>50</SpecOpsI>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <HeavyI>50</HeavyI>
+          <SniperI>90</SniperI>
+          <StaffI>100</StaffI>
+          <CorpGuardI>100</CorpGuardI>
+          <ExecutiveI>100</ExecutiveI>
+          <SoldierI>100</SoldierI>
+          <OfficerI>100</OfficerI>
+          <SpecOpsI>50</SpecOpsI>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+</Defs>
