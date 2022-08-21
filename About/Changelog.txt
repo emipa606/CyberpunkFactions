@@ -1,4 +1,7 @@
 # Changelog for CyberpunkFactions
 
+1.3.1 - Fixed the apparel not showing in filters since I fixed the vanilla overwrites in the main Cyberpunk-mod
+
+
 1.3.0 - First publish
 

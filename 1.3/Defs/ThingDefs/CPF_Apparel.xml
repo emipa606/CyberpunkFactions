@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Militech uniform -->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_MBodySuit</defName>
     <label>Militech jumpsuit</label>
     <description>This dark grey jumpsuit is the standard uniform for Militech soldiers.</description>
@@ -52,7 +52,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_MA_Jacket</defName>
     <label>Militech Combat Armor</label>
     <description>Militech security force standard issue combat armor.</description>
@@ -106,7 +106,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_MA_Pants</defName>
     <label>Militech armored fatigues</label>
     <description>Militech security force standard issue armored fatigues.</description>
@@ -192,7 +192,7 @@
     </colorGenerator>
   </ThingDef>
   <!-- Arasaka Uniform -->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_ABodySuit</defName>
     <label>Arasaka jumpsuit</label>
     <description>This black jumpsuit is the standard uniform for Arasaka guards.</description>
@@ -229,6 +229,7 @@
       </layers>
       <tags>
         <li>Militech</li>
+        <li>Arasaka</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -243,7 +244,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_AA_Jacket</defName>
     <label>Arasaka Armored Jacket</label>
     <description>Arasaka security force standard issue armor jacket.</description>
@@ -296,7 +297,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_AA_Pants</defName>
     <label>Arasaka Armored Pants</label>
     <description>Arasaka security force standard issue armor pants.</description>
@@ -349,7 +350,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ArmorMachineableBase">
     <defName>Apparel_VestA</defName>
     <label>Arasaka armored vest</label>
     <description>Standard armor for Arasaka guards, the armored vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</description>
@@ -401,7 +402,7 @@
     </colorGenerator>
   </ThingDef>
   <!-- =================== IEC Security Uniform ================== -->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_IECSecurity_Jacket</defName>
     <label>IEC Security jacket</label>
     <description>Because IEC believes in subtlety when it comes to corporate security the company's corporate guards wear these suits.</description>
@@ -445,7 +446,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_IECSecurity_Shirt</defName>
     <description>Standard IEC corporate guard button up shirt.</description>
     <label>IEC Security shirt</label>
@@ -484,7 +485,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_IECSecurity_Pants</defName>
     <label>IEC Security Pants</label>
     <description>Standard IEC corporate guard pants.</description>
@@ -526,7 +527,7 @@
     </colorGenerator>
   </ThingDef>
   <!-- =================== Petrochem Security Uniform ================== -->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_PSecurity_Shirt</defName>
     <description>Standard Petrochem corporate guard button up shirt with integrated bulletproof vest.</description>
     <label>Petrochem Security shirt</label>
@@ -573,7 +574,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_PSecurity_Pants</defName>
     <label>Petrochem Security Pants</label>
     <description>Standard Petrochem corporate guard pants.</description>
@@ -615,7 +616,7 @@
     </colorGenerator>
   </ThingDef>
   <!-- =================== Sovoil Security Uniform ================== -->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_SSecurity_Shirt</defName>
     <description>Standard Sovoil corporate guard button up shirt with integrated bulletproof vest.</description>
     <label>Sovoil Security shirt</label>
@@ -662,7 +663,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="CP_ApparelMakeableBase">
     <defName>CP_SSecurity_Pants</defName>
     <label>Sovoil Security Pants</label>
     <description>Standard Sovoil corporate guard pants.</description>

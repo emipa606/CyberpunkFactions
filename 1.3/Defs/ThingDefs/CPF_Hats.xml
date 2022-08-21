@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- ============== beret ================= -->
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_BeretL</defName>
     <label>Lazarus beret</label>
     <description>A beret designed for and used by Lazarus Group soldiers.</description>
@@ -43,7 +43,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_BeretS</defName>
     <label>Sovoil beret</label>
     <description>A beret designed for and used by Sovoil soldiers.</description>
@@ -85,7 +85,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_BeretM</defName>
     <label>Militech beret</label>
     <description>A beret designed for and used by Militech soldiers and guards.</description>
@@ -128,7 +128,7 @@
     </colorGenerator>
   </ThingDef>
   <!-- ============== cap ================= -->
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_CapM</defName>
     <label>Militech cap</label>
     <description>A cap designed for and used by Militech soldiers.</description>
@@ -173,7 +173,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_CapA</defName>
     <label>Arasaka cap</label>
     <description>A cap designed for and used by Arasaka guards.</description>
@@ -218,7 +218,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="CP_HatMakeableBase">
     <defName>Apparel_CapP</defName>
     <label>Petrochem cap</label>
     <description>A cap designed for and used by Petrochem guards.</description>
