@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>Arasaka</defName>
+    <label>Arasaka Corp</label>
+    <description>When most people think of Arasaka the picture in their minds is that of the blackclad guards employed by so many corporations, businesses and powerful individuals throughout the world.</description>
+    <pawnsPlural>Arasaka corps</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <factionIconPath>CP/World/Arasaka</factionIconPath>
+    <colorSpectrum>
+      <li>(0.8, 0.0, 0.0)</li>
+    </colorSpectrum>
+    <factionNameMaker>NamerFactionArasaka</factionNameMaker>
+    <settlementNameMaker>NamerSettlementCorp</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <allowedCultures>
+      <li>Rustican</li>
+    </allowedCultures>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Corp_CP</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <StaffA>50</StaffA>
+          <HeavyA>50</HeavyA>
+          <MeleeA>70</MeleeA>
+          <SniperA>80</SniperA>
+          <CorpGuardA>100</CorpGuardA>
+          <ExecutiveA>100</ExecutiveA>
+          <SoldierA>100</SoldierA>
+          <SpecOpsA>80</SpecOpsA>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <HeavyA>50</HeavyA>
+          <MeleeA>70</MeleeA>
+          <SniperA>80</SniperA>
+          <SoldierA>100</SoldierA>
+          <SpecOpsA>80</SpecOpsA>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <CorpTraderA>1</CorpTraderA>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <HeavyA>50</HeavyA>
+          <MeleeA>70</MeleeA>
+          <CorpGuardA>100</CorpGuardA>
+          <SoldierA>100</SoldierA>
+          <SpecOpsA>70</SpecOpsA>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <HeavyA>50</HeavyA>
+          <MeleeA>70</MeleeA>
+          <SniperA>90</SniperA>
+          <StaffA>100</StaffA>
+          <CorpGuardA>100</CorpGuardA>
+          <ExecutiveA>100</ExecutiveA>
+          <SoldierA>100</SoldierA>
+          <SpecOpsA>100</SpecOpsA>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>
