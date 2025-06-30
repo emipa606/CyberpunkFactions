@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: guard (solo) -->
+  <CorpGuardM.label>guard (solo)</CorpGuardM.label>
+  <!-- EN: solos -->
+  <CorpGuardM.labelPlural>solos</CorpGuardM.labelPlural>
+  <!-- EN: corp -->
+  <CorpTraderM.label>corp</CorpTraderM.label>
+  <!-- EN: saleswoman (corp) -->
+  <CorpTraderM.labelFemale>saleswoman (corp)</CorpTraderM.labelFemale>
+  <!-- EN: salesman (corp) -->
+  <CorpTraderM.labelMale>salesman (corp)</CorpTraderM.labelMale>
+  <!-- EN: corps -->
+  <CorpTraderM.labelPlural>corps</CorpTraderM.labelPlural>
+  <!-- EN: executive (corp) -->
+  <ExecutiveM.label>executive (corp)</ExecutiveM.label>
+  <!-- EN: corps -->
+  <ExecutiveM.labelPlural>corps</ExecutiveM.labelPlural>
+  <!-- EN: soldier (solo) -->
+  <HeavyM.label>soldier (solo)</HeavyM.label>
+  <!-- EN: soldiers -->
+  <HeavyM.labelPlural>soldiers</HeavyM.labelPlural>
+  <!-- EN: officer (solo) -->
+  <OfficerM.label>officer (solo)</OfficerM.label>
+  <!-- EN: officers -->
+  <OfficerM.labelPlural>officers</OfficerM.labelPlural>
+  <!-- EN: sniper (solo) -->
+  <SniperM.label>sniper (solo)</SniperM.label>
+  <!-- EN: snipers -->
+  <SniperM.labelPlural>snipers</SniperM.labelPlural>
+  <!-- EN: soldier (solo) -->
+  <SoldierM.label>soldier (solo)</SoldierM.label>
+  <!-- EN: soldiers -->
+  <SoldierM.labelPlural>soldiers</SoldierM.labelPlural>
+  <!-- EN: solo -->
+  <SpecOpsM.label>solo</SpecOpsM.label>
+  <!-- EN: solos -->
+  <SpecOpsM.labelPlural>solos</SpecOpsM.labelPlural>
+  <!-- EN: corp -->
+  <StaffM.label>corp</StaffM.label>
+  <!-- EN: corps -->
+  <StaffM.labelPlural>corps</StaffM.labelPlural>
+</LanguageData>

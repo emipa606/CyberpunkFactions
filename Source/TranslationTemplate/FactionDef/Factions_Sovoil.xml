@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Sovoil Corp -->
+  <Sovoil.label>Sovoil Corp</Sovoil.label>
+  <!-- EN: The rim's leader in oil recovery and refining with extensive mining, heavy industry, and power transmission interests. Sovoil's leaders know, however, that the oil won't flow forever, and are making plans to carry the corp into the future, when oil is no longer a prime source of income. -->
+  <Sovoil.description>The rim's leader in oil recovery and refining with extensive mining, heavy industry, and power transmission interests. Sovoil's leaders know, however, that the oil won't flow forever, and are making plans to carry the corp into the future, when oil is no longer a prime source of income.</Sovoil.description>
+  <!-- EN: director -->
+  <Sovoil.leaderTitle>director</Sovoil.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Sovoil.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Sovoil.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Sovoil.pawnSingular>member</Sovoil.pawnSingular>
+  <!-- EN: Sovoil corps -->
+  <Sovoil.pawnsPlural>Sovoil corps</Sovoil.pawnsPlural>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Lazarus beret -->
+  <Apparel_BeretL.label>Lazarus beret</Apparel_BeretL.label>
+  <!-- EN: A beret designed for and used by Lazarus Group soldiers. -->
+  <Apparel_BeretL.description>A beret designed for and used by Lazarus Group soldiers.</Apparel_BeretL.description>
+  <!-- EN: Militech beret -->
+  <Apparel_BeretM.label>Militech beret</Apparel_BeretM.label>
+  <!-- EN: A beret designed for and used by Militech soldiers and guards. -->
+  <Apparel_BeretM.description>A beret designed for and used by Militech soldiers and guards.</Apparel_BeretM.description>
+  <!-- EN: Sovoil beret -->
+  <Apparel_BeretS.label>Sovoil beret</Apparel_BeretS.label>
+  <!-- EN: A beret designed for and used by Sovoil soldiers. -->
+  <Apparel_BeretS.description>A beret designed for and used by Sovoil soldiers.</Apparel_BeretS.description>
+  <!-- EN: Arasaka cap -->
+  <Apparel_CapA.label>Arasaka cap</Apparel_CapA.label>
+  <!-- EN: A cap designed for and used by Arasaka guards. -->
+  <Apparel_CapA.description>A cap designed for and used by Arasaka guards.</Apparel_CapA.description>
+  <!-- EN: Militech cap -->
+  <Apparel_CapM.label>Militech cap</Apparel_CapM.label>
+  <!-- EN: A cap designed for and used by Militech soldiers. -->
+  <Apparel_CapM.description>A cap designed for and used by Militech soldiers.</Apparel_CapM.description>
+  <!-- EN: Petrochem cap -->
+  <Apparel_CapP.label>Petrochem cap</Apparel_CapP.label>
+  <!-- EN: A cap designed for and used by Petrochem guards. -->
+  <Apparel_CapP.description>A cap designed for and used by Petrochem guards.</Apparel_CapP.description>
+</LanguageData>

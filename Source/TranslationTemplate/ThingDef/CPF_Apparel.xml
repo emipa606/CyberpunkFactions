@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka armored vest -->
+  <Apparel_VestA.label>Arasaka armored vest</Apparel_VestA.label>
+  <!-- EN: Standard armor for Arasaka guards, the armored vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds. -->
+  <Apparel_VestA.description>Standard armor for Arasaka guards, the armored vest is designed to stop small arms fire, grenade shrapnel, but only slow up assault rifle rounds.</Apparel_VestA.description>
+  <!-- EN: Arasaka Armored Jacket -->
+  <CP_AA_Jacket.label>Arasaka Armored Jacket</CP_AA_Jacket.label>
+  <!-- EN: Arasaka security force standard issue armor jacket. -->
+  <CP_AA_Jacket.description>Arasaka security force standard issue armor jacket.</CP_AA_Jacket.description>
+  <!-- EN: Arasaka Armored Pants -->
+  <CP_AA_Pants.label>Arasaka Armored Pants</CP_AA_Pants.label>
+  <!-- EN: Arasaka security force standard issue armor pants. -->
+  <CP_AA_Pants.description>Arasaka security force standard issue armor pants.</CP_AA_Pants.description>
+  <!-- EN: Arasaka jumpsuit -->
+  <CP_ABodySuit.label>Arasaka jumpsuit</CP_ABodySuit.label>
+  <!-- EN: This black jumpsuit is the standard uniform for Arasaka guards. -->
+  <CP_ABodySuit.description>This black jumpsuit is the standard uniform for Arasaka guards.</CP_ABodySuit.description>
+  <!-- EN: IEC Security jacket -->
+  <CP_IECSecurity_Jacket.label>IEC Security jacket</CP_IECSecurity_Jacket.label>
+  <!-- EN: Because IEC believes in subtlety when it comes to corporate security the company's corporate guards wear these suits. -->
+  <CP_IECSecurity_Jacket.description>Because IEC believes in subtlety when it comes to corporate security the company's corporate guards wear these suits.</CP_IECSecurity_Jacket.description>
+  <!-- EN: IEC Security Pants -->
+  <CP_IECSecurity_Pants.label>IEC Security Pants</CP_IECSecurity_Pants.label>
+  <!-- EN: Standard IEC corporate guard pants. -->
+  <CP_IECSecurity_Pants.description>Standard IEC corporate guard pants.</CP_IECSecurity_Pants.description>
+  <!-- EN: IEC Security shirt -->
+  <CP_IECSecurity_Shirt.label>IEC Security shirt</CP_IECSecurity_Shirt.label>
+  <!-- EN: Standard IEC corporate guard button up shirt. -->
+  <CP_IECSecurity_Shirt.description>Standard IEC corporate guard button up shirt.</CP_IECSecurity_Shirt.description>
+  <!-- EN: Militech Combat Armor -->
+  <CP_MA_Jacket.label>Militech Combat Armor</CP_MA_Jacket.label>
+  <!-- EN: Militech security force standard issue combat armor. -->
+  <CP_MA_Jacket.description>Militech security force standard issue combat armor.</CP_MA_Jacket.description>
+  <!-- EN: Militech armored fatigues -->
+  <CP_MA_Pants.label>Militech armored fatigues</CP_MA_Pants.label>
+  <!-- EN: Militech security force standard issue armored fatigues. -->
+  <CP_MA_Pants.description>Militech security force standard issue armored fatigues.</CP_MA_Pants.description>
+  <!-- EN: Militech jumpsuit -->
+  <CP_MBodySuit.label>Militech jumpsuit</CP_MBodySuit.label>
+  <!-- EN: This dark grey jumpsuit is the standard uniform for Militech soldiers. -->
+  <CP_MBodySuit.description>This dark grey jumpsuit is the standard uniform for Militech soldiers.</CP_MBodySuit.description>
+  <!-- EN: Petrochem Security Pants -->
+  <CP_PSecurity_Pants.label>Petrochem Security Pants</CP_PSecurity_Pants.label>
+  <!-- EN: Standard Petrochem corporate guard pants. -->
+  <CP_PSecurity_Pants.description>Standard Petrochem corporate guard pants.</CP_PSecurity_Pants.description>
+  <!-- EN: Petrochem Security shirt -->
+  <CP_PSecurity_Shirt.label>Petrochem Security shirt</CP_PSecurity_Shirt.label>
+  <!-- EN: Standard Petrochem corporate guard button up shirt with integrated bulletproof vest. -->
+  <CP_PSecurity_Shirt.description>Standard Petrochem corporate guard button up shirt with integrated bulletproof vest.</CP_PSecurity_Shirt.description>
+  <!-- EN: Sovoil Security Pants -->
+  <CP_SSecurity_Pants.label>Sovoil Security Pants</CP_SSecurity_Pants.label>
+  <!-- EN: Standard Sovoil corporate guard pants. -->
+  <CP_SSecurity_Pants.description>Standard Sovoil corporate guard pants.</CP_SSecurity_Pants.description>
+  <!-- EN: Sovoil Security shirt -->
+  <CP_SSecurity_Shirt.label>Sovoil Security shirt</CP_SSecurity_Shirt.label>
+  <!-- EN: Standard Sovoil corporate guard button up shirt with integrated bulletproof vest. -->
+  <CP_SSecurity_Shirt.description>Standard Sovoil corporate guard button up shirt with integrated bulletproof vest.</CP_SSecurity_Shirt.description>
+</LanguageData>

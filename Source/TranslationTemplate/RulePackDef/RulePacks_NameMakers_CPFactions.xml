@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN:
+    <li>name->Autumn Blade</li>
+  -->
+  <NamerFactionAB.rulePack.rulesStrings>
+    <li>name->Autumn Blade</li>
+  </NamerFactionAB.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->Arasaka Corp</li>
+    <li>name->Arasaka Security</li>
+    <li>name->Arasaka Manufacturing</li>
+    <li>name->Arasaka Interplanetary</li>
+    <li>name->Arasaka Police Services</li>
+    <li>name->Arasaka Chemical</li>
+    <li>name->Sato Commercial Shipping</li>
+    <li>name->Barrett-Arasaka Engineering</li>
+    <li>name->Nagoya Transportation</li>
+    <li>name->Korusu Commercial Spacecraft</li>
+    <li>name->Lubcheck Structural Materials</li>
+    <li>name->Scandia Aerospace</li>
+  -->
+  <NamerFactionArasaka.rulePack.rulesStrings>
+    <li>name->Arasaka Corp</li>
+    <li>name->Arasaka Security</li>
+    <li>name->Arasaka Manufacturing</li>
+    <li>name->Arasaka Interplanetary</li>
+    <li>name->Arasaka Police Services</li>
+    <li>name->Arasaka Chemical</li>
+    <li>name->Sato Commercial Shipping</li>
+    <li>name->Barrett-Arasaka Engineering</li>
+    <li>name->Nagoya Transportation</li>
+    <li>name->Korusu Commercial Spacecraft</li>
+    <li>name->Lubcheck Structural Materials</li>
+    <li>name->Scandia Aerospace</li>
+  </NamerFactionArasaka.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[subname]</li>
+    <li>name->[subname]</li>
+    <li>name->[subname]</li>
+    <li>name->[subname] [politicalunion]</li>
+    <li>name->[subname] [politicaladjective] [politicalunion]</li>
+    <li>name->[politicalunion] of [subname]</li>
+    <li>name->[politicaladjective] [politicalunion] of [subname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[direction] [wordname]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][syl][endsyl]</li>
+    <li>wordname->[syl][syl][endsyl]</li>
+    <li>wordname->[syl][syl][syl][endsyl]</li>
+  -->
+  <NamerFactionCorp.rulePack.rulesStrings>
+    <li>name->[subname]</li>
+    <li>name->[subname]</li>
+    <li>name->[subname]</li>
+    <li>name->[subname] [politicalunion]</li>
+    <li>name->[subname] [politicaladjective] [politicalunion]</li>
+    <li>name->[politicalunion] of [subname]</li>
+    <li>name->[politicaladjective] [politicalunion] of [subname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[wordname]</li>
+    <li>subname->[direction] [wordname]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][endsyl]</li>
+    <li>wordname->[syl][syl][endsyl]</li>
+    <li>wordname->[syl][syl][endsyl]</li>
+    <li>wordname->[syl][syl][syl][endsyl]</li>
+  </NamerFactionCorp.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->The [badassanimal]s</li>
+    <li>name->The [badassanimal] Men</li>
+    <li>name->The [badassanimal]s of [badassconcept]</li>
+    <li>name->The [badassperson]s of [badassconcept]</li>
+    <li>name->The [badassperson]z of [badassconcept]</li>
+    <li>name->The [family]s of [badassconcept]</li>
+    <li>name->The [badassperson]s</li>
+    <li>name->The [badassperson]z</li>
+    <li>name->The [weapon] Men</li>
+    <li>name->The [weapon] Gang</li>
+    <li>name->The [weapon]s</li>
+    <li>name->The [weapon] [badassanimal]s</li>
+    <li>name->The [badasscolor] [weapon]s</li>
+    <li>name->The [badasscolor] [badassanimal]s</li>
+    <li>name->The [badasscolor] [badassperson]s</li>
+    <li>name->The [badassperson] [groupname]</li>
+    <li>name->The [badassadjective] [groupname]</li>
+    <li>name->The [badassadjective] [badassanimal]s</li>
+    <li>name->The [badassadjective] [badassperson]s</li>
+    <li>name->[weapon] [groupname]</li>
+    <li>name->[badassconcept] [groupname]</li>
+    <li>name->[badassconcept][groupname]</li>
+  -->
+  <NamerFactionGang.rulePack.rulesStrings>
+    <li>name->The [badassanimal]s</li>
+    <li>name->The [badassanimal] Men</li>
+    <li>name->The [badassanimal]s of [badassconcept]</li>
+    <li>name->The [badassperson]s of [badassconcept]</li>
+    <li>name->The [badassperson]z of [badassconcept]</li>
+    <li>name->The [family]s of [badassconcept]</li>
+    <li>name->The [badassperson]s</li>
+    <li>name->The [badassperson]z</li>
+    <li>name->The [weapon] Men</li>
+    <li>name->The [weapon] Gang</li>
+    <li>name->The [weapon]s</li>
+    <li>name->The [weapon] [badassanimal]s</li>
+    <li>name->The [badasscolor] [weapon]s</li>
+    <li>name->The [badasscolor] [badassanimal]s</li>
+    <li>name->The [badasscolor] [badassperson]s</li>
+    <li>name->The [badassperson] [groupname]</li>
+    <li>name->The [badassadjective] [groupname]</li>
+    <li>name->The [badassadjective] [badassanimal]s</li>
+    <li>name->The [badassadjective] [badassperson]s</li>
+    <li>name->[weapon] [groupname]</li>
+    <li>name->[badassconcept] [groupname]</li>
+    <li>name->[badassconcept][groupname]</li>
+  </NamerFactionGang.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->IEC</li>
+    <li>name->IEC Shipping</li>
+    <li>name->IEC Raw Materials</li>
+    <li>name->IEC Military Technologies</li>
+    <li>name->IEC Space Technologies</li>
+    <li>name->IEC Power Systems</li>
+    <li>name->IEC Consumer Products</li>
+    <li>name->IEC Distributing</li>
+    <li>name->IEC Aerospace Engineering</li>
+    <li>name->Darian Construction</li>
+    <li>name->Molecular Mechanics</li>
+  -->
+  <NamerFactionIEC.rulePack.rulesStrings>
+    <li>name->IEC</li>
+    <li>name->IEC Shipping</li>
+    <li>name->IEC Raw Materials</li>
+    <li>name->IEC Military Technologies</li>
+    <li>name->IEC Space Technologies</li>
+    <li>name->IEC Power Systems</li>
+    <li>name->IEC Consumer Products</li>
+    <li>name->IEC Distributing</li>
+    <li>name->IEC Aerospace Engineering</li>
+    <li>name->Darian Construction</li>
+    <li>name->Molecular Mechanics</li>
+  </NamerFactionIEC.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->Lazarus Military Group</li>
+  -->
+  <NamerFactionLazarus.rulePack.rulesStrings>
+    <li>name->Lazarus Military Group</li>
+  </NamerFactionLazarus.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->Militech Corp</li>
+    <li>name->Militech Military Contracting</li>
+    <li>name->Militech Technologies</li>
+    <li>name->Militech Interplanetary</li>
+    <li>name->Militech Security</li>
+    <li>name->Militech Heavy Industries</li>
+    <li>name->Militech Interplanetary Shipping</li>
+    <li>name->Militech Interplanetary Construction</li>
+    <li>name->Militech Cybernetics</li>
+    <li>name->Militech Aerospace</li>
+  -->
+  <NamerFactionMilitech.rulePack.rulesStrings>
+    <li>name->Militech Corp</li>
+    <li>name->Militech Military Contracting</li>
+    <li>name->Militech Technologies</li>
+    <li>name->Militech Interplanetary</li>
+    <li>name->Militech Security</li>
+    <li>name->Militech Heavy Industries</li>
+    <li>name->Militech Interplanetary Shipping</li>
+    <li>name->Militech Interplanetary Construction</li>
+    <li>name->Militech Cybernetics</li>
+    <li>name->Militech Aerospace</li>
+  </NamerFactionMilitech.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[tribalworld] [politicalunion]</li>
+    <li>name->The [tribalworld] [politicalunion]</li>
+    <li>name->The [color] [terrainfeature] [politicalunion]</li>
+    <li>name->[family] of [tribalword]</li>
+    <li>name->[politicalunion] of [tribalword]</li>
+    <li>name->The [color] [animal] [tribalword]</li>
+    <li>name->The [tribalword] of the [terrainfeature]</li>
+    <li>tribalword->[tribalwordfile]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+    <li>tribalword->[syl][syl][syl][syl]</li>
+  -->
+  <NamerFactionNomad.rulePack.rulesStrings>
+    <li>name->[tribalworld] [politicalunion]</li>
+    <li>name->The [tribalworld] [politicalunion]</li>
+    <li>name->The [color] [terrainfeature] [politicalunion]</li>
+    <li>name->[family] of [tribalword]</li>
+    <li>name->[politicalunion] of [tribalword]</li>
+    <li>name->The [color] [animal] [tribalword]</li>
+    <li>name->The [tribalword] of the [terrainfeature]</li>
+    <li>tribalword->[tribalwordfile]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+    <li>tribalword->[syl][syl][syl][syl]</li>
+  </NamerFactionNomad.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->Petrochem</li>
+    <li>name->Petrochem Petroleum</li>
+    <li>name->Petrochem Advanced Fuel</li>
+    <li>name->Petrochem Chemical Industries</li>
+    <li>name->Petrochem Armed Forces</li>
+    <li>name->Petrochem Shipping</li>
+    <li>name->Petrochem Refining</li>
+    <li>name->Petrochem Farms</li>
+    <li>name->Petrochem Adv Fuel Refining</li>
+    <li>name->Petrochem Weapons</li>
+    <li>name->Xoma Pharmaceuticals</li>
+    <li>name->RimFarms Agricorp</li>
+    <li>name->Good Rim Foods</li>
+    <li>name->International Hydro-Technologies</li>
+    <li>name->Loomis Advanced Electronic Research</li>
+    <li>name->Hydro-Chem</li>
+    <li>name->Goman Pharmaceuticals</li>
+    <li>name->Nanosystems Inc</li>
+    <li>name->RimWorld Engineering and Construction</li>
+  -->
+  <NamerFactionPC.rulePack.rulesStrings>
+    <li>name->Petrochem</li>
+    <li>name->Petrochem Petroleum</li>
+    <li>name->Petrochem Advanced Fuel</li>
+    <li>name->Petrochem Chemical Industries</li>
+    <li>name->Petrochem Armed Forces</li>
+    <li>name->Petrochem Shipping</li>
+    <li>name->Petrochem Refining</li>
+    <li>name->Petrochem Farms</li>
+    <li>name->Petrochem Adv Fuel Refining</li>
+    <li>name->Petrochem Weapons</li>
+    <li>name->Xoma Pharmaceuticals</li>
+    <li>name->RimFarms Agricorp</li>
+    <li>name->Good Rim Foods</li>
+    <li>name->International Hydro-Technologies</li>
+    <li>name->Loomis Advanced Electronic Research</li>
+    <li>name->Hydro-Chem</li>
+    <li>name->Goman Pharmaceuticals</li>
+    <li>name->Nanosystems Inc</li>
+    <li>name->RimWorld Engineering and Construction</li>
+  </NamerFactionPC.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->Sovoil</li>
+    <li>name->SMKP Oil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+  -->
+  <NamerFactionSO.rulePack.rulesStrings>
+    <li>name->Sovoil</li>
+    <li>name->SMKP Oil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+    <li>name->Sovoil</li>
+  </NamerFactionSO.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[positiveconcept] [terrainfeatureCP] [communityCorp]</li>
+    <li>name->[corp] [terrainfeatureCP] [communityCorp]</li>
+    <li>name->[corp] [communityCorp]</li>
+    <li>name->[badasscolor] [materials]</li>
+    <li>name->[nearname]</li>
+    <li>name->[badasscolor] [wordname] [communityCorp]</li>
+    <li>name->[wordname] [communityCorp]</li>
+    <li>name->[badasscolor] [terrainfeatureCP]</li>
+    <li>name->[materials] [terrainfeatureCP]</li>
+    <li>name->[wordname] [terrainfeatureCP]</li>
+    <li>nearname->The [badasscolor] [terrainfeatureCP]</li>
+    <li>nearname->The [terrainfeatureCP]</li>
+    <li>nearname->[wordname] [corp] [communityCorp]</li>
+    <li>nearname->[wordname] [terrainfeatureCP] [communityCorp]</li>
+    <li>nearname->[campnames]</li>
+    <li>campnames->Fort [materials] [terrainfeatureCP]</li>
+    <li>campnames->Fort [wordname] [terrainfeatureCP]</li>
+    <li>campnames->Fort [wordname]</li>
+    <li>campnames->Camp [materials] [terrainfeatureCP]</li>
+    <li>campnames->Camp [wordname] [terrainfeatureCP]</li>
+    <li>campnames->Camp [wordname]</li>
+    <li>wordname->[weapon][syl]</li>
+    <li>wordname->[syl][syl]</li>
+    <li>wordname->[syl][townend]</li>
+    <li>wordname->[syl][syl][townend]</li>
+    <li>wordname->[animal][townend]</li>
+    <li>wordname->[terrainfeatureCP][townend]</li>
+    <li>wordname->[materials][townend]</li>
+    <li>townend->ville</li>
+    <li>townend->crest</li>
+    <li>townend->hurst</li>
+    <li>townend->bourne</li>
+    <li>townend->brad</li>
+    <li>townend->dale</li>
+    <li>townend->hope</li>
+    <li>townend->port</li>
+    <li>townend->ford</li>
+    <li>townend->ing</li>
+    <li>townend->ness</li>
+    <li>townend->mere</li>
+    <li>townend->shaw</li>
+    <li>townend->wick</li>
+  -->
+  <NamerSettlementCorp.rulePack.rulesStrings>
+    <li>name->[positiveconcept] [terrainfeatureCP] [communityCorp]</li>
+    <li>name->[corp] [terrainfeatureCP] [communityCorp]</li>
+    <li>name->[corp] [communityCorp]</li>
+    <li>name->[badasscolor] [materials]</li>
+    <li>name->[nearname]</li>
+    <li>name->[badasscolor] [wordname] [communityCorp]</li>
+    <li>name->[wordname] [communityCorp]</li>
+    <li>name->[badasscolor] [terrainfeatureCP]</li>
+    <li>name->[materials] [terrainfeatureCP]</li>
+    <li>name->[wordname] [terrainfeatureCP]</li>
+    <li>nearname->The [badasscolor] [terrainfeatureCP]</li>
+    <li>nearname->The [terrainfeatureCP]</li>
+    <li>nearname->[wordname] [corp] [communityCorp]</li>
+    <li>nearname->[wordname] [terrainfeatureCP] [communityCorp]</li>
+    <li>nearname->[campnames]</li>
+    <li>campnames->Fort [materials] [terrainfeatureCP]</li>
+    <li>campnames->Fort [wordname] [terrainfeatureCP]</li>
+    <li>campnames->Fort [wordname]</li>
+    <li>campnames->Camp [materials] [terrainfeatureCP]</li>
+    <li>campnames->Camp [wordname] [terrainfeatureCP]</li>
+    <li>campnames->Camp [wordname]</li>
+    <li>wordname->[weapon][syl]</li>
+    <li>wordname->[syl][syl]</li>
+    <li>wordname->[syl][townend]</li>
+    <li>wordname->[syl][syl][townend]</li>
+    <li>wordname->[animal][townend]</li>
+    <li>wordname->[terrainfeatureCP][townend]</li>
+    <li>wordname->[materials][townend]</li>
+    <li>townend->ville</li>
+    <li>townend->crest</li>
+    <li>townend->hurst</li>
+    <li>townend->bourne</li>
+    <li>townend->brad</li>
+    <li>townend->dale</li>
+    <li>townend->hope</li>
+    <li>townend->port</li>
+    <li>townend->ford</li>
+    <li>townend->ing</li>
+    <li>townend->ness</li>
+    <li>townend->mere</li>
+    <li>townend->shaw</li>
+    <li>townend->wick</li>
+  </NamerSettlementCorp.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[badassanimal] [geography]</li>
+    <li>name->[badassconcept] [geography]</li>
+    <li>name->[badassanimal]'s [geography]</li>
+    <li>name->[badassperson]'s [geography]</li>
+    <li>geography->[terrainfeature]</li>
+    <li>geography->[community]</li>
+  -->
+  <NamerSettlementGang.rulePack.rulesStrings>
+    <li>name->[badassanimal] [geography]</li>
+    <li>name->[badassconcept] [geography]</li>
+    <li>name->[badassanimal]'s [geography]</li>
+    <li>name->[badassperson]'s [geography]</li>
+    <li>geography->[terrainfeature]</li>
+    <li>geography->[community]</li>
+  </NamerSettlementGang.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[tribalword]</li>
+    <li>name->[tribalword]</li>
+    <li>name->[color] [tribalword]</li>
+    <li>name->[tf]</li>
+    <li>name->[materials] [terrainfeature]</li>
+    <li>name->[color] [terrainfeature]</li>
+    <li>name->[tribalword] [terrainfeature]</li>
+    <li>tf->The [terrainfeature]</li>
+    <li>tf->The [materials] [terrainfeature]</li>
+    <li>tf->The [color] [terrainfeature]</li>
+    <li>tf->The [tribalword] [terrainfeature]</li>
+    <li>tribalword->[tribalwordfile]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+  -->
+  <NamerSettlementNomad.rulePack.rulesStrings>
+    <li>name->[tribalword]</li>
+    <li>name->[tribalword]</li>
+    <li>name->[color] [tribalword]</li>
+    <li>name->[tf]</li>
+    <li>name->[materials] [terrainfeature]</li>
+    <li>name->[color] [terrainfeature]</li>
+    <li>name->[tribalword] [terrainfeature]</li>
+    <li>tf->The [terrainfeature]</li>
+    <li>tf->The [materials] [terrainfeature]</li>
+    <li>tf->The [color] [terrainfeature]</li>
+    <li>tf->The [tribalword] [terrainfeature]</li>
+    <li>tribalword->[tribalwordfile]</li>
+    <li>tribalword->[syl][syl]</li>
+    <li>tribalword->[syl][syl][syl]</li>
+  </NamerSettlementNomad.rulePack.rulesStrings>
+</LanguageData>

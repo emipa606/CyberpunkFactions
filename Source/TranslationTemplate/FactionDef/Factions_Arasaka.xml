@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Arasaka Corp -->
+  <Arasaka.label>Arasaka Corp</Arasaka.label>
+  <!-- EN: When most people think of Arasaka the picture in their minds is that of the blackclad guards employed by so many corporations, businesses and powerful individuals throughout the world. -->
+  <Arasaka.description>When most people think of Arasaka the picture in their minds is that of the blackclad guards employed by so many corporations, businesses and powerful individuals throughout the world.</Arasaka.description>
+  <!-- EN: director -->
+  <Arasaka.leaderTitle>director</Arasaka.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Arasaka.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Arasaka.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Arasaka.pawnSingular>member</Arasaka.pawnSingular>
+  <!-- EN: Arasaka corps -->
+  <Arasaka.pawnsPlural>Arasaka corps</Arasaka.pawnsPlural>
+</LanguageData>

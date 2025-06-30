@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: The Lazarus Group -->
+  <Lazarus.label>The Lazarus Group</Lazarus.label>
+  <!-- EN: Lazarus is a mercenary operations contractor and strategic studies think-tank that offers a variety of high quality services to the discriminating customer who wants a little more for his money. -->
+  <Lazarus.description>Lazarus is a mercenary operations contractor and strategic studies think-tank that offers a variety of high quality services to the discriminating customer who wants a little more for his money.</Lazarus.description>
+  <!-- EN: colonel -->
+  <Lazarus.leaderTitle>colonel</Lazarus.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Lazarus.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Lazarus.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Lazarus.pawnSingular>member</Lazarus.pawnSingular>
+  <!-- EN: Lazarus corps -->
+  <Lazarus.pawnsPlural>Lazarus corps</Lazarus.pawnsPlural>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: go gang -->
+  <GoGang.label>go gang</GoGang.label>
+  <!-- EN: This is a mobile gang, raiding outpost to outpost, but never settling down -->
+  <GoGang.description>This is a mobile gang, raiding outpost to outpost, but never settling down</GoGang.description>
+  <!-- EN: a go gang -->
+  <GoGang.fixedName>a go gang</GoGang.fixedName>
+  <!-- EN: boss -->
+  <GoGang.leaderTitle>boss</GoGang.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <GoGang.messageDefendersAttacking>{0} from {1} are attacking your {2}.</GoGang.messageDefendersAttacking>
+  <!-- EN: member -->
+  <GoGang.pawnSingular>member</GoGang.pawnSingular>
+  <!-- EN: boosters -->
+  <GoGang.pawnsPlural>boosters</GoGang.pawnsPlural>
+  <!-- EN: booster gang -->
+  <Pirate.label>booster gang</Pirate.label>
+  <!-- EN: A gang of bandits.\n\nWhile the corporations run the urbworlds, rimworlds are the domain of the booster gangs. These gangs are at constant war with each other. Most are heavily armed, with access to various levels of cybernetics. Many also “enhance” themselves through the use of illegal combat drugs. Some gangs form partnerships with corporations. They do the corporation’s dirty work in exchange for access to better weaponry and cybernetics. Such deals rarely end well, however, as the corporations have no problem using the gangs as sacrifice pawns. -->
+  <Pirate.description>A gang of bandits.
+
+While the corporations run the urbworlds, rimworlds are the domain of the booster gangs. These gangs are at constant war with each other. Most are heavily armed, with access to various levels of cybernetics. Many also “enhance” themselves through the use of illegal combat drugs. Some gangs form partnerships with corporations. They do the corporation’s dirty work in exchange for access to better weaponry and cybernetics. Such deals rarely end well, however, as the corporations have no problem using the gangs as sacrifice pawns.</Pirate.description>
+  <!-- EN: boss -->
+  <Pirate.leaderTitle>boss</Pirate.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Pirate.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Pirate.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Pirate.pawnSingular>member</Pirate.pawnSingular>
+  <!-- EN: boosters -->
+  <Pirate.pawnsPlural>boosters</Pirate.pawnsPlural>
+</LanguageData>

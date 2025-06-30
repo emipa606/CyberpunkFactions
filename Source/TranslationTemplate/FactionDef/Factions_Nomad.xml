@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: arms dealer -->
+  <AutumnBlade.label>arms dealer</AutumnBlade.label>
+  <!-- EN: Autumn Blade is a criminal arms dealing syndicate.  Built from the ashes of Yakuza treachery this organization has grown from a small street operation to an interplanetary business, Autumn Blade works alongside, but is not affiliated with, the Yakuza, the Tongs, and the Triads. -->
+  <AutumnBlade.description>Autumn Blade is a criminal arms dealing syndicate.  Built from the ashes of Yakuza treachery this organization has grown from a small street operation to an interplanetary business, Autumn Blade works alongside, but is not affiliated with, the Yakuza, the Tongs, and the Triads.</AutumnBlade.description>
+  <!-- EN: boss -->
+  <AutumnBlade.leaderTitle>boss</AutumnBlade.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <AutumnBlade.messageDefendersAttacking>{0} from {1} are attacking your {2}.</AutumnBlade.messageDefendersAttacking>
+  <!-- EN: member -->
+  <AutumnBlade.pawnSingular>member</AutumnBlade.pawnSingular>
+  <!-- EN: arms dealers -->
+  <AutumnBlade.pawnsPlural>arms dealers</AutumnBlade.pawnsPlural>
+  <!-- EN: nomad -->
+  <Tribe.label>nomad</Tribe.label>
+  <!-- EN: Nomads were once corporate wage-slaves, who got fired and blackballed from employment, and now they roam the roads and live in their own villages. As life on the road is hard, they maintain strong family bonds. If a Nomad is in trouble, he can count on members of his family to watch his back. -->
+  <Tribe.description>Nomads were once corporate wage-slaves, who got fired and blackballed from employment, and now they roam the roads and live in their own villages. As life on the road is hard, they maintain strong family bonds. If a Nomad is in trouble, he can count on members of his family to watch his back.</Tribe.description>
+  <!-- EN: chief -->
+  <Tribe.leaderTitle>chief</Tribe.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Tribe.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Tribe.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Tribe.pawnSingular>member</Tribe.pawnSingular>
+  <!-- EN: nomads -->
+  <Tribe.pawnsPlural>nomads</Tribe.pawnsPlural>
+</LanguageData>

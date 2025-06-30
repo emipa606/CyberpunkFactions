@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Petrochem Corp -->
+  <Petrochem.label>Petrochem Corp</Petrochem.label>
+  <!-- EN: Petrochem's bread and butter is chemfuel; they are responseible for 60% of the Rim's supplies. The corporation remains on the cutting edge of chemistry and materials research and production. And by virtue of owning large tracts of arable land all over the rim, it is also among the rim's largest agricultural concerns. -->
+  <Petrochem.description>Petrochem's bread and butter is chemfuel; they are responseible for 60% of the Rim's supplies. The corporation remains on the cutting edge of chemistry and materials research and production. And by virtue of owning large tracts of arable land all over the rim, it is also among the rim's largest agricultural concerns.</Petrochem.description>
+  <!-- EN: director -->
+  <Petrochem.leaderTitle>director</Petrochem.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Petrochem.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Petrochem.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Petrochem.pawnSingular>member</Petrochem.pawnSingular>
+  <!-- EN: Petrochem corps -->
+  <Petrochem.pawnsPlural>Petrochem corps</Petrochem.pawnsPlural>
+</LanguageData>

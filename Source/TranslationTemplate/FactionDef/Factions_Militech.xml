@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Militech Corp -->
+  <Militech.label>Militech Corp</Militech.label>
+  <!-- EN: Militech is a dominating force in military hardware manufacturing. Militech products are sold in varying volumes to all known worlds. It not only sells all manner of weapons, but it also has launched into some research and theoretical grounds, conducting experiments with genetically altered soldiers and animals and combat strategy artificial intelligences that can steer ships, fly planes and operate armored vehicles. -->
+  <Militech.description>Militech is a dominating force in military hardware manufacturing. Militech products are sold in varying volumes to all known worlds. It not only sells all manner of weapons, but it also has launched into some research and theoretical grounds, conducting experiments with genetically altered soldiers and animals and combat strategy artificial intelligences that can steer ships, fly planes and operate armored vehicles.</Militech.description>
+  <!-- EN: director -->
+  <Militech.leaderTitle>director</Militech.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Militech.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Militech.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Militech.pawnSingular>member</Militech.pawnSingular>
+  <!-- EN: Militech corps -->
+  <Militech.pawnsPlural>Militech corps</Militech.pawnsPlural>
+</LanguageData>

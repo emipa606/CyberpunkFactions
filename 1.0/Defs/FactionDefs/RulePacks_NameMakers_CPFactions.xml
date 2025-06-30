@@ -1,32 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Pirate -->
   <RulePackDef>
     <defName>NamerFactionGang</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;The [badassanimal]s</li>
-        <li>name-&gt;The [badassanimal] Men</li>
-        <li>name-&gt;The [badassanimal]s of [badassconcept]</li>
-        <li>name-&gt;The [badassperson]s of [badassconcept]</li>
-        <li>name-&gt;The [badassperson]z of [badassconcept]</li>
-        <li>name-&gt;The [family]s of [badassconcept]</li>
-        <li>name-&gt;The [badassperson]s</li>
-        <li>name-&gt;The [badassperson]z</li>
-        <li>name-&gt;The [weapon] Men</li>
-        <li>name-&gt;The [weapon] Gang</li>
-        <li>name-&gt;The [weapon]s</li>
-        <li>name-&gt;The [weapon] [badassanimal]s</li>
-        <li>name-&gt;The [badasscolor] [weapon]s</li>
-        <li>name-&gt;The [badasscolor] [badassanimal]s</li>
-        <li>name-&gt;The [badasscolor] [badassperson]s</li>
-        <li>name-&gt;The [badassperson] [groupname]</li>
-        <li>name-&gt;The [badassadjective] [groupname]</li>
-        <li>name-&gt;The [badassadjective] [badassanimal]s</li>
-        <li>name-&gt;The [badassadjective] [badassperson]s</li>
-        <li>name-&gt;[weapon] [groupname]</li>
-        <li>name-&gt;[badassconcept] [groupname]</li>
-        <li>name-&gt;[badassconcept][groupname]</li>
+        <li>name->The [badassanimal]s</li>
+        <li>name->The [badassanimal] Men</li>
+        <li>name->The [badassanimal]s of [badassconcept]</li>
+        <li>name->The [badassperson]s of [badassconcept]</li>
+        <li>name->The [badassperson]z of [badassconcept]</li>
+        <li>name->The [family]s of [badassconcept]</li>
+        <li>name->The [badassperson]s</li>
+        <li>name->The [badassperson]z</li>
+        <li>name->The [weapon] Men</li>
+        <li>name->The [weapon] Gang</li>
+        <li>name->The [weapon]s</li>
+        <li>name->The [weapon] [badassanimal]s</li>
+        <li>name->The [badasscolor] [weapon]s</li>
+        <li>name->The [badasscolor] [badassanimal]s</li>
+        <li>name->The [badasscolor] [badassperson]s</li>
+        <li>name->The [badassperson] [groupname]</li>
+        <li>name->The [badassadjective] [groupname]</li>
+        <li>name->The [badassadjective] [badassanimal]s</li>
+        <li>name->The [badassadjective] [badassperson]s</li>
+        <li>name->[weapon] [groupname]</li>
+        <li>name->[badassconcept] [groupname]</li>
+        <li>name->[badassconcept][groupname]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -66,12 +66,12 @@
     <defName>NamerFactionBaseGang</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[badassanimal] [geography]</li>
-        <li>name-&gt;[badassconcept] [geography]</li>
-        <li>name-&gt;[badassanimal]'s [geography]</li>
-        <li>name-&gt;[badassperson]'s [geography]</li>
-        <li>geography-&gt;[terrainfeature]</li>
-        <li>geography-&gt;[community]</li>
+        <li>name->[badassanimal] [geography]</li>
+        <li>name->[badassconcept] [geography]</li>
+        <li>name->[badassanimal]'s [geography]</li>
+        <li>name->[badassperson]'s [geography]</li>
+        <li>geography->[terrainfeature]</li>
+        <li>geography->[community]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -118,23 +118,23 @@
     <defName>NamerFactionCorp</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[subname]</li>
-        <li>name-&gt;[subname]</li>
-        <li>name-&gt;[subname]</li>
-        <li>name-&gt;[subname] [politicalunion]</li>
-        <li>name-&gt;[subname] [politicaladjective] [politicalunion]</li>
-        <li>name-&gt;[politicalunion] of [subname]</li>
-        <li>name-&gt;[politicaladjective] [politicalunion] of [subname]</li>
-        <li>subname-&gt;[wordname]</li>
-        <li>subname-&gt;[wordname]</li>
-        <li>subname-&gt;[wordname]</li>
-        <li>subname-&gt;[direction] [wordname]</li>
-        <li>wordname-&gt;[syl][endsyl]</li>
-        <li>wordname-&gt;[syl][endsyl]</li>
-        <li>wordname-&gt;[syl][endsyl]</li>
-        <li>wordname-&gt;[syl][syl][endsyl]</li>
-        <li>wordname-&gt;[syl][syl][endsyl]</li>
-        <li>wordname-&gt;[syl][syl][syl][endsyl]</li>
+        <li>name->[subname]</li>
+        <li>name->[subname]</li>
+        <li>name->[subname]</li>
+        <li>name->[subname] [politicalunion]</li>
+        <li>name->[subname] [politicaladjective] [politicalunion]</li>
+        <li>name->[politicalunion] of [subname]</li>
+        <li>name->[politicaladjective] [politicalunion] of [subname]</li>
+        <li>subname->[wordname]</li>
+        <li>subname->[wordname]</li>
+        <li>subname->[wordname]</li>
+        <li>subname->[direction] [wordname]</li>
+        <li>wordname->[syl][endsyl]</li>
+        <li>wordname->[syl][endsyl]</li>
+        <li>wordname->[syl][endsyl]</li>
+        <li>wordname->[syl][syl][endsyl]</li>
+        <li>wordname->[syl][syl][endsyl]</li>
+        <li>wordname->[syl][syl][syl][endsyl]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -164,48 +164,48 @@
     <defName>NamerFactionBaseCorp</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[positiveconcept] [terrainfeatureCP] [communityCorp]</li>
-        <li>name-&gt;[corp] [terrainfeatureCP] [communityCorp]</li>
-        <li>name-&gt;[corp] [communityCorp]</li>
-        <li>name-&gt;[badasscolor] [materials]</li>
-        <li>name-&gt;[nearname]</li>
-        <li>name-&gt;[badasscolor] [wordname] [communityCorp]</li>
-        <li>name-&gt;[wordname] [communityCorp]</li>
-        <li>name-&gt;[badasscolor] [terrainfeatureCP]</li>
-        <li>name-&gt;[materials] [terrainfeatureCP]</li>
-        <li>name-&gt;[wordname] [terrainfeatureCP]</li>
-        <li>nearname-&gt;The [badasscolor] [terrainfeatureCP]</li>
-        <li>nearname-&gt;The [terrainfeatureCP]</li>
-        <li>nearname-&gt;[wordname] [corp] [communityCorp]</li>
-        <li>nearname-&gt;[wordname] [terrainfeatureCP] [communityCorp]</li>
-        <li>nearname-&gt;[campnames]</li>
-        <li>campnames-&gt;Fort [materials] [terrainfeatureCP]</li>
-        <li>campnames-&gt;Fort [wordname] [terrainfeatureCP]</li>
-        <li>campnames-&gt;Fort [wordname]</li>
-        <li>campnames-&gt;Camp [materials] [terrainfeatureCP]</li>
-        <li>campnames-&gt;Camp [wordname] [terrainfeatureCP]</li>
-        <li>campnames-&gt;Camp [wordname]</li>
-        <li>wordname-&gt;[weapon][syl]</li>
-        <li>wordname-&gt;[syl][syl]</li>
-        <li>wordname-&gt;[syl][townend]</li>
-        <li>wordname-&gt;[syl][syl][townend]</li>
-        <li>wordname-&gt;[animal][townend]</li>
-        <li>wordname-&gt;[terrainfeatureCP][townend]</li>
-        <li>wordname-&gt;[materials][townend]</li>
-        <li>townend-&gt;ville</li>
-        <li>townend-&gt;crest</li>
-        <li>townend-&gt;hurst</li>
-        <li>townend-&gt;bourne</li>
-        <li>townend-&gt;brad</li>
-        <li>townend-&gt;dale</li>
-        <li>townend-&gt;hope</li>
-        <li>townend-&gt;port</li>
-        <li>townend-&gt;ford</li>
-        <li>townend-&gt;ing</li>
-        <li>townend-&gt;ness</li>
-        <li>townend-&gt;mere</li>
-        <li>townend-&gt;shaw</li>
-        <li>townend-&gt;wick</li>
+        <li>name->[positiveconcept] [terrainfeatureCP] [communityCorp]</li>
+        <li>name->[corp] [terrainfeatureCP] [communityCorp]</li>
+        <li>name->[corp] [communityCorp]</li>
+        <li>name->[badasscolor] [materials]</li>
+        <li>name->[nearname]</li>
+        <li>name->[badasscolor] [wordname] [communityCorp]</li>
+        <li>name->[wordname] [communityCorp]</li>
+        <li>name->[badasscolor] [terrainfeatureCP]</li>
+        <li>name->[materials] [terrainfeatureCP]</li>
+        <li>name->[wordname] [terrainfeatureCP]</li>
+        <li>nearname->The [badasscolor] [terrainfeatureCP]</li>
+        <li>nearname->The [terrainfeatureCP]</li>
+        <li>nearname->[wordname] [corp] [communityCorp]</li>
+        <li>nearname->[wordname] [terrainfeatureCP] [communityCorp]</li>
+        <li>nearname->[campnames]</li>
+        <li>campnames->Fort [materials] [terrainfeatureCP]</li>
+        <li>campnames->Fort [wordname] [terrainfeatureCP]</li>
+        <li>campnames->Fort [wordname]</li>
+        <li>campnames->Camp [materials] [terrainfeatureCP]</li>
+        <li>campnames->Camp [wordname] [terrainfeatureCP]</li>
+        <li>campnames->Camp [wordname]</li>
+        <li>wordname->[weapon][syl]</li>
+        <li>wordname->[syl][syl]</li>
+        <li>wordname->[syl][townend]</li>
+        <li>wordname->[syl][syl][townend]</li>
+        <li>wordname->[animal][townend]</li>
+        <li>wordname->[terrainfeatureCP][townend]</li>
+        <li>wordname->[materials][townend]</li>
+        <li>townend->ville</li>
+        <li>townend->crest</li>
+        <li>townend->hurst</li>
+        <li>townend->bourne</li>
+        <li>townend->brad</li>
+        <li>townend->dale</li>
+        <li>townend->hope</li>
+        <li>townend->port</li>
+        <li>townend->ford</li>
+        <li>townend->ing</li>
+        <li>townend->ness</li>
+        <li>townend->mere</li>
+        <li>townend->shaw</li>
+        <li>townend->wick</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -243,20 +243,20 @@
     <defName>NamerFactionNomad</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[tribalworld] [politicalunion]</li>
-        <li>name-&gt;The [tribalworld] [politicalunion]</li>
-        <li>name-&gt;The [color] [terrainfeature] [politicalunion]</li>
-        <li>name-&gt;[family] of [tribalword]</li>
-        <li>name-&gt;[politicalunion] of [tribalword]</li>
-        <li>name-&gt;The [color] [animal] [tribalword]</li>
-        <li>name-&gt;The [tribalword] of the [terrainfeature]</li>
-        <li>tribalword-&gt;[tribalwordfile]</li>
-        <li>tribalword-&gt;[syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl][syl][syl]</li>
+        <li>name->[tribalworld] [politicalunion]</li>
+        <li>name->The [tribalworld] [politicalunion]</li>
+        <li>name->The [color] [terrainfeature] [politicalunion]</li>
+        <li>name->[family] of [tribalword]</li>
+        <li>name->[politicalunion] of [tribalword]</li>
+        <li>name->The [color] [animal] [tribalword]</li>
+        <li>name->The [tribalword] of the [terrainfeature]</li>
+        <li>tribalword->[tribalwordfile]</li>
+        <li>tribalword->[syl][syl]</li>
+        <li>tribalword->[syl][syl]</li>
+        <li>tribalword->[syl][syl]</li>
+        <li>tribalword->[syl][syl][syl]</li>
+        <li>tribalword->[syl][syl][syl]</li>
+        <li>tribalword->[syl][syl][syl][syl]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -284,20 +284,20 @@
     <defName>NamerFactionBaseNomad</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[tribalword]</li>
-        <li>name-&gt;[tribalword]</li>
-        <li>name-&gt;[color] [tribalword]</li>
-        <li>name-&gt;[tf]</li>
-        <li>name-&gt;[materials] [terrainfeature]</li>
-        <li>name-&gt;[color] [terrainfeature]</li>
-        <li>name-&gt;[tribalword] [terrainfeature]</li>
-        <li>tf-&gt;The [terrainfeature]</li>
-        <li>tf-&gt;The [materials] [terrainfeature]</li>
-        <li>tf-&gt;The [color] [terrainfeature]</li>
-        <li>tf-&gt;The [tribalword] [terrainfeature]</li>
-        <li>tribalword-&gt;[tribalwordfile]</li>
-        <li>tribalword-&gt;[syl][syl]</li>
-        <li>tribalword-&gt;[syl][syl][syl]</li>
+        <li>name->[tribalword]</li>
+        <li>name->[tribalword]</li>
+        <li>name->[color] [tribalword]</li>
+        <li>name->[tf]</li>
+        <li>name->[materials] [terrainfeature]</li>
+        <li>name->[color] [terrainfeature]</li>
+        <li>name->[tribalword] [terrainfeature]</li>
+        <li>tf->The [terrainfeature]</li>
+        <li>tf->The [materials] [terrainfeature]</li>
+        <li>tf->The [color] [terrainfeature]</li>
+        <li>tf->The [tribalword] [terrainfeature]</li>
+        <li>tribalword->[tribalwordfile]</li>
+        <li>tribalword->[syl][syl]</li>
+        <li>tribalword->[syl][syl][syl]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -324,16 +324,16 @@
     <defName>NamerFactionMilitech</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Militech Corp</li>
-        <li>name-&gt;Militech Military Contracting</li>
-        <li>name-&gt;Militech Technologies</li>
-        <li>name-&gt;Militech Interplanetary</li>
-        <li>name-&gt;Militech Security</li>
-        <li>name-&gt;Militech Heavy Industries</li>
-        <li>name-&gt;Militech Interplanetary Shipping</li>
-        <li>name-&gt;Militech Interplanetary Construction</li>
-        <li>name-&gt;Militech Cybernetics</li>
-        <li>name-&gt;Militech Aerospace</li>
+        <li>name->Militech Corp</li>
+        <li>name->Militech Military Contracting</li>
+        <li>name->Militech Technologies</li>
+        <li>name->Militech Interplanetary</li>
+        <li>name->Militech Security</li>
+        <li>name->Militech Heavy Industries</li>
+        <li>name->Militech Interplanetary Shipping</li>
+        <li>name->Militech Interplanetary Construction</li>
+        <li>name->Militech Cybernetics</li>
+        <li>name->Militech Aerospace</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -341,18 +341,18 @@
     <defName>NamerFactionArasaka</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Arasaka Corp</li>
-        <li>name-&gt;Arasaka Security</li>
-        <li>name-&gt;Arasaka Manufacturing</li>
-        <li>name-&gt;Arasaka Interplanetary</li>
-        <li>name-&gt;Arasaka Police Services</li>
-        <li>name-&gt;Arasaka Chemical</li>
-        <li>name-&gt;Sato Commercial Shipping</li>
-        <li>name-&gt;Barrett-Arasaka Engineering</li>
-        <li>name-&gt;Nagoya Transportation</li>
-        <li>name-&gt;Korusu Commercial Spacecraft</li>
-        <li>name-&gt;Lubcheck Structural Materials</li>
-        <li>name-&gt;Scandia Aerospace</li>
+        <li>name->Arasaka Corp</li>
+        <li>name->Arasaka Security</li>
+        <li>name->Arasaka Manufacturing</li>
+        <li>name->Arasaka Interplanetary</li>
+        <li>name->Arasaka Police Services</li>
+        <li>name->Arasaka Chemical</li>
+        <li>name->Sato Commercial Shipping</li>
+        <li>name->Barrett-Arasaka Engineering</li>
+        <li>name->Nagoya Transportation</li>
+        <li>name->Korusu Commercial Spacecraft</li>
+        <li>name->Lubcheck Structural Materials</li>
+        <li>name->Scandia Aerospace</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -360,7 +360,7 @@
     <defName>NamerFactionLazarus</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Lazarus Military Group</li>
+        <li>name->Lazarus Military Group</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -368,17 +368,17 @@
     <defName>NamerFactionIEC</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;IEC</li>
-        <li>name-&gt;IEC Shipping</li>
-        <li>name-&gt;IEC Raw Materials</li>
-        <li>name-&gt;IEC Military Technologies</li>
-        <li>name-&gt;IEC Space Technologies</li>
-        <li>name-&gt;IEC Power Systems</li>
-        <li>name-&gt;IEC Consumer Products</li>
-        <li>name-&gt;IEC Distributing</li>
-        <li>name-&gt;IEC Aerospace Engineering</li>
-        <li>name-&gt;Darian Construction</li>
-        <li>name-&gt;Molecular Mechanics</li>
+        <li>name->IEC</li>
+        <li>name->IEC Shipping</li>
+        <li>name->IEC Raw Materials</li>
+        <li>name->IEC Military Technologies</li>
+        <li>name->IEC Space Technologies</li>
+        <li>name->IEC Power Systems</li>
+        <li>name->IEC Consumer Products</li>
+        <li>name->IEC Distributing</li>
+        <li>name->IEC Aerospace Engineering</li>
+        <li>name->Darian Construction</li>
+        <li>name->Molecular Mechanics</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -386,7 +386,7 @@
     <defName>NamerFactionAB</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Autumn Blade</li>
+        <li>name->Autumn Blade</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -394,12 +394,12 @@
     <defName>NamerFactionSO</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Sovoil</li>
-        <li>name-&gt;SMKP Oil</li>
-        <li>name-&gt;Sovoil</li>
-        <li>name-&gt;Sovoil</li>
-        <li>name-&gt;Sovoil</li>
-        <li>name-&gt;Sovoil</li>
+        <li>name->Sovoil</li>
+        <li>name->SMKP Oil</li>
+        <li>name->Sovoil</li>
+        <li>name->Sovoil</li>
+        <li>name->Sovoil</li>
+        <li>name->Sovoil</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -407,25 +407,25 @@
     <defName>NamerFactionPC</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;Petrochem</li>
-        <li>name-&gt;Petrochem Petroleum</li>
-        <li>name-&gt;Petrochem Advanced Fuel</li>
-        <li>name-&gt;Petrochem Chemical Industries</li>
-        <li>name-&gt;Petrochem Armed Forces</li>
-        <li>name-&gt;Petrochem Shipping</li>
-        <li>name-&gt;Petrochem Refining</li>
-        <li>name-&gt;Petrochem Farms</li>
-        <li>name-&gt;Petrochem Adv Fuel Refining</li>
-        <li>name-&gt;Petrochem Weapons</li>
-        <li>name-&gt;Xoma Pharmaceuticals</li>
-        <li>name-&gt;RimFarms Agricorp</li>
-        <li>name-&gt;Good Rim Foods</li>
-        <li>name-&gt;International Hydro-Technologies</li>
-        <li>name-&gt;Loomis Advanced Electronic Research</li>
-        <li>name-&gt;Hydro-Chem</li>
-        <li>name-&gt;Goman Pharmaceuticals</li>
-        <li>name-&gt;Nanosystems Inc</li>
-        <li>name-&gt;RimWorld Engineering and Construction</li>
+        <li>name->Petrochem</li>
+        <li>name->Petrochem Petroleum</li>
+        <li>name->Petrochem Advanced Fuel</li>
+        <li>name->Petrochem Chemical Industries</li>
+        <li>name->Petrochem Armed Forces</li>
+        <li>name->Petrochem Shipping</li>
+        <li>name->Petrochem Refining</li>
+        <li>name->Petrochem Farms</li>
+        <li>name->Petrochem Adv Fuel Refining</li>
+        <li>name->Petrochem Weapons</li>
+        <li>name->Xoma Pharmaceuticals</li>
+        <li>name->RimFarms Agricorp</li>
+        <li>name->Good Rim Foods</li>
+        <li>name->International Hydro-Technologies</li>
+        <li>name->Loomis Advanced Electronic Research</li>
+        <li>name->Hydro-Chem</li>
+        <li>name->Goman Pharmaceuticals</li>
+        <li>name->Nanosystems Inc</li>
+        <li>name->RimWorld Engineering and Construction</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
